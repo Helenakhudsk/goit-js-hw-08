@@ -1,0 +1,18 @@
+.gallery{
+  width: 1128px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    list-style: none;
+    
+}
+
+.gallery-item{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.gallery-item:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
